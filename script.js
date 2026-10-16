@@ -51,8 +51,8 @@ if (menuButton && navigation) {
 
 // Данные двух отдельных результатов ремонта.
 const caseImages = {
-  work01: { src: "assets/work-01.webp", number: "01 / 02", caption: "Ремонт заднего крыла", alt: "Заднее крыло до ремонта сверху и после ремонта снизу" },
-  work02: { src: "assets/work-02.webp", number: "02 / 02", caption: "Восстановление арки", alt: "Колёсная арка до ремонта сверху и после ремонта снизу" }
+  work01: { src: "work-01.webp", number: "01 / 02", caption: "Ремонт заднего крыла", alt: "Заднее крыло до ремонта сверху и после ремонта снизу" },
+  work02: { src: "work-02.webp", number: "02 / 02", caption: "Восстановление арки", alt: "Колёсная арка до ремонта сверху и после ремонта снизу" }
 };
 const caseImage = document.querySelector("#case-image");
 const caseCaption = document.querySelector("#case-caption");
